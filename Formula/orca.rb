@@ -1,14 +1,14 @@
-class Orca < Formula
+class OrcaServer < Formula
   desc "A simple OPDS Server for Calibre written in Rust"
   homepage "https://github.com/kolja/orca"
   license "MIT"
 
-  VERSION = "v0.1.11"
+  VERSION = "v0.1.12"
 
   # to figure out the latest sha sum (over in the kolja/orca repo) run:
   # > cargo make list-sha
-  SHA256_DARWIN_ARM = "74d8dc6f4c8427da750bcc04ac735b142a1e18a36947f74c9dc4d7b6a53c6c56"
-  SHA256_LINUX_X86 = "5dee4cfbacc87b9ac55ece721f76978633a581eca3b4f8a21be351d1ad022fc1"
+  SHA256_DARWIN_ARM = "38d16703d1575feedf2386ac370c68be83735fa52408842e838564192c74dcf3"
+  SHA256_LINUX_X86 = "0b78a745d7ce843592f2c9ff9406b904efdd8d05f2ef7db20fe16fa80bda42df"
 
   BASE_URL = "https://github.com/kolja/orca/releases/download"
 
