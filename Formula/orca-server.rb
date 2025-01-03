@@ -3,12 +3,12 @@ class OrcaServer < Formula
   homepage "https://github.com/kolja/orca"
   license "MIT"
 
-  VERSION = "v0.1.12"
+  VERSION = "v0.1.13"
 
   # to figure out the latest sha sum (over in the kolja/orca repo) run:
   # > cargo make list-sha
-  SHA256_DARWIN_ARM = "38d16703d1575feedf2386ac370c68be83735fa52408842e838564192c74dcf3"
-  SHA256_LINUX_X86 = "0b78a745d7ce843592f2c9ff9406b904efdd8d05f2ef7db20fe16fa80bda42df"
+SHA256_DARWIN_ARM = "75c8772b072d6b5bb921ca4fc37b9144826bca925afdb0f915fe5e16543a6aea"
+SHA256_LINUX_X86 = "ba9375355fe44ef55b75ff1f74028f8e99c7f5639b8ca17a64b8c5eb3a52ddc7"
 
   BASE_URL = "https://github.com/kolja/orca/releases/download"
 
